@@ -1,0 +1,24 @@
+@import './../../style/variables.scss';
+
+.myTariff {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 188px;
+  height: 173px;
+}
+.numTariff {
+  font-family: $font-family-secondary;
+  font-size: 154px;
+  font-weight: 500;
+  line-height: 130px;
+  text-align: center;
+}
+.titleTariff {
+  font-family: $font-family-secondary;
+  font-size: 39px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: center;
+}

@@ -1,0 +1,30 @@
+@import './../../../style/variables.scss';
+
+.statusInfoCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 536px;
+  background-color: $color-bg;
+  border-radius: $border-radius-item3;
+  padding: 31px 28px;
+}
+.currentStatus,
+.timeToCangeStatus {
+  display: flex;
+  justify-content: space-between;
+}
+
+.currentStatusData {
+  text-transform: uppercase;
+}
+.titleCurrentStatus,
+.titleTimetoChangeStatus {
+  @include text15px-300-primary;
+  line-height: 13px;
+}
+.currentStatusData,
+.timeToChangeStatusData {
+  @include text15px-700-primary;
+  line-height: 13px;
+}

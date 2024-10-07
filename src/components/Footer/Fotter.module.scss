@@ -1,0 +1,16 @@
+@import './../../style/variables.scss';
+
+.footerWrapper {
+  margin-top: 44px;
+}
+.menuList {
+  display: flex;
+  width: 540px;
+  justify-content: space-between;
+}
+
+.menuLink {
+  @include text13px-400-primary;
+  text-decoration: none;
+  color: $color-font-black;
+}

@@ -1,0 +1,32 @@
+@import './../../style/variables.scss';
+
+.sessionMenu {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+
+  border-color: inherit;
+}
+
+.menuSessionButton {
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+  align-items: center;
+  justify-content: center;
+  background-color: $color-font-white;
+  height: 100%;
+  width: 280px;
+  border-radius: $border-radius-item;
+  cursor: pointer;
+  &:hover,
+  &:active {
+    transition: $transition;
+    scale: 110%;
+  }
+}
+.menuSessionTitle {
+  @include text14px-700-primary;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}

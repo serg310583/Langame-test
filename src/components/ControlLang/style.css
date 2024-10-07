@@ -1,0 +1,20 @@
+.ant-select-selector {
+  font-weight: 900 !important;
+  padding: 0 !important;
+  /* border: 2px solid #c9c9c9 !important; */
+  /* border-radius: 10px !important; */
+}
+.ant-select-selection-item {
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif !important;
+  font-size: 15px !important;
+  font-weight: 700 !important;
+  line-height: 45px !important;
+  letter-spacing: 1.5px !important;
+  text-align: center;
+  padding-top: 2px !important;
+}
+.ant-select-dropdown .ant-select-item-option-content {
+  padding: 0 !important;
+  font-size: 12px !important;
+}

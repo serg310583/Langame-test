@@ -1,0 +1,34 @@
+@import './../../style/variables';
+
+.wrapperPromo {
+  padding: 50px 66px 45px 46px;
+
+  display: grid;
+  grid-template-rows: 722px 148px;
+  gap: 39px;
+
+  width: 1673px;
+  height: 1082px;
+  border-radius: $border-radius-content;
+  background-color: $color-surface;
+}
+.mainContent {
+  display: grid;
+  grid-template-columns: 1064px 411px;
+  justify-content: space-between;
+  gap: 32px;
+}
+.cardBlock {
+  display: grid;
+  grid-template-rows: 106px 230px 332px;
+  gap: 27px;
+}
+
+.copyright {
+  display: flex;
+  justify-content: end;
+}
+
+.blockAds {
+  background-color: $color-surface;
+}

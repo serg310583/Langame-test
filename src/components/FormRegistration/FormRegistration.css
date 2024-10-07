@@ -1,0 +1,51 @@
+.gridRegistration {
+  display: grid;
+  grid-template-rows: 82px 82px 82px 82px 133px;
+  gap: 38px;
+}
+.rowOne,
+.rowTwo,
+.rowThree {
+  display: grid;
+  grid-template-columns: 300px 300px;
+  gap: 38px;
+}
+.rowForth {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.documentText {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 13px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  text-transform: none;
+}
+.subscribeText {
+  margin-left: 12px;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17.42px;
+  text-align: left;
+}
+.textDoc {
+  display: block;
+  text-transform: none;
+  font-size: 17px;
+  color: #b7b3b3;
+  text-align: left;
+  padding-left: 25px;
+}
+
+/* . {
+  color: #EFEFEF;
+  color: #00AE31;
+  color: #FFFAE6;
+  color: #ffffff;
+  color: #efefef;
+  color: #DC0000;
+  font-weight: normal;
+} */

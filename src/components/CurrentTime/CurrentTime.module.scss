@@ -1,0 +1,9 @@
+@import './../../style/variables.scss';
+.time {
+  font-family: $font-family-secondary;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 1.5px;
+  text-align: center;
+}

@@ -1,0 +1,6 @@
+.sessionInfoCards {
+  display: grid;
+  gap: 32px;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+}

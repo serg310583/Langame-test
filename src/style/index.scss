@@ -1,0 +1,28 @@
+@import './variables.scss';
+@import './reset.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  //font
+  font-family: $font-family-primary;
+  font-style: $font-style-normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: normal;
+}
+html,
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: transparent;
+}

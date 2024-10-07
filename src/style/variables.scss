@@ -1,0 +1,27 @@
+@import './fonts.scss';
+@import './mixins.scss';
+
+$font-family-primary: 'Lato', sans-serif;
+$font-family-secondary: 'Roboto', sans-serif;
+$font-weight-normal: normal;
+$font-weight-bold: bold;
+$font-style-normal: normal;
+$font-style-italic: italic;
+
+//transition
+$transition: linear 0.3s;
+
+//color
+$color-font-black: #000000;
+$color-font-white: #fffeee;
+$color-font-white2: #ffffff;
+$color-bg: #fefefe;
+$color-surface: #eaeaea;
+$color-button: #dc0000;
+
+//radius
+$border-radius-content: 44px;
+$border-radius-item: 22px;
+$border-radius-item2: 26px;
+$border-radius-item3: 16px;
+$border-radius-item4: 11px;

@@ -1,0 +1,25 @@
+.adsWrapper {
+  display: flex;
+  gap: 30px;
+  height: 332px;
+}
+.adsCard1 {
+  position: relative;
+  width: 538px;
+  height: 100%;
+}
+.imgAds1 {
+  position: absolute;
+  top: -10px;
+  left: -12px;
+}
+.adsCard2 {
+  position: relative;
+  width: 538px;
+  height: 100%;
+}
+.imgAds2 {
+  position: absolute;
+  top: 0;
+  left: -5px;
+}
